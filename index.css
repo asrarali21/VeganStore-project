@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+.vegan-navbar{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px 40px;
+     position: fixed;
+     width: 100%;
+     background-color: white;
+}
+#navsection a{
+    font-size: 1.2rem;
+    margin: 20px;
+    font-weight: 600;
+
+}
+#navsection button{
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(170, 210, 54);
+    padding: 9px 34px;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 4px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 150px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: px;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.landingsection{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png);
+    background-position: left;
+    background-size: cover;
+    
+}
+.landingtextwarp{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.landingtextwarp h1{
+    width: 100%;
+    max-width: 1100px;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 8.8px;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0;
+}
+.landingtextwarp p{
+    width: 100%;
+    max-width: 1100px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: #8b8b99;
+    text-align: center;
+    padding-top: 32px;
+}
+#cardsection{
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+}
+.stepcard{
+    padding: 112px 48px;
+    text-align: center;
+    color: rgb(237, 234, 234);
+    box-sizing: border-box;
+}
+#stepcard1{
+    background-color: #5acda6;
+}
+#stepcard2{
+    background-color: #91ac41;
+}
+#stepcard3{
+    background-color: #e4b476;
+}
+#stepcard4{
+    background-color: #f69dad;
+}
+.stepcard i{
+    font-size: 80px;
+    padding-bottom: 20px;
+    transition-duration: 300ms;
+    
+    
+}
+.stepcard i:hover{
+    transform: scale(1.5);
+}

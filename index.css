@@ -157,7 +157,7 @@
 #highlight-container-section{
     
     width: 70%;
-    margin: 100px auto;
+    margin: 10px auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     text-align: center;
@@ -196,6 +196,7 @@
     letter-spacing: 0.5px;
     font-weight: 500;
     color: #8b8b99;
+    
 }
 #testimonials-section{
     text-align: center;
@@ -218,8 +219,234 @@
     max-width: 700px;
     font-size: 16px;
     font-weight: 500;
-    margin: 0 auto;
+    margin: 20px auto;
     color: #8b8b99;
     letter-spacing: 0.5px;
     margin-bottom: 55px;
+}
+#testimonial-container{
+   width: 80%;
+   margin: 100px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+
+
+}
+.testimonial-card{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px ;
+    border-bottom-right-radius: 30px;
+    width: 100%;
+    padding-top: 75px
+    text-align: center;
+    background-color: #f5f6fb;
+    transition-duration: 800ms;
+}
+.testimonial-card:hover{
+    box-shadow: 5px 5px 5px#050505,-5px -5px 5px #050505;
+
+}
+.testimonial-card img{
+    width: 80px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+}
+.testimonial-message {
+    font-size: 14px;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    margin: 0;
+    max-width: 240px;
+    margin: 0 auto;
+}
+.testimonial-card h4 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 0px;
+    }
+.job-role {
+    color: #8b8b99;
+    font-size: 12px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    margin: 0;
+
+}
+#image-follow-section{
+      
+       display: grid;
+       grid-template-columns: 6fr 4fr;
+}
+.leftimageside img{
+   
+    width: 100%;
+    height: 100%;
+}
+.followrightside{
+    background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png);
+    padding: 115px;
+    text-align: start;
+}
+.textrightside h3{
+
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0 0 8px;
+
+    
+}
+.textrightside p{
+     max-width: 300px;
+text-align: start;
+    color: #8b8b99;
+    font-size: 16px;
+    letter-spacing: 0.5;
+    line-height: 1.6;
+    margin-top: 20px;
+    
+}
+#subscribe-email {
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 500;
+    background-color: white;
+    padding: 12px;
+    color: #8b8b99;
+    font-size: 16px;
+    margin-top: 60px;
+    display: block;
+    margin-bottom: 30px;
+}
+#subscribe-btn {
+    background-color: #f69dad;
+    padding: 16px 42px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: black;
+    border: 0;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+#subscribe-btn:hover{
+    background: transparent;
+    border:2px solid #f69dad;
+}
+.store-stats{
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.stats p{
+    color: #57e3b5;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    margin: 0;
+}
+#demovideo-section{
+    margin: 50px auto;
+    text-align: center;
+
+}
+#demovideo-section h1{
+    color: #8b8b99;
+    font-size: 44px;
+    font-weight: 400;
+}
+.linespace{
+   margin: 20px auto;
+   background-color: orange;
+   height: 2px;
+   width: 100px;
+}
+#demovideo-section iframe{
+    width: 100%;
+    height: 425px;
+    margin-top: 20px;
+}
+#contact-section{
+  
+    width: 80%;
+    margin: 80px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: start;
+}
+.green-heading {
+    color: #91ac41;
+    font-size: 24px;
+    font-family: "Cedarville Cursive", cursive;
+    margin: 0;
+    margin-top: 35px;
+}   
+.section-heading {
+    font-weight: 600;
+    font-size: 44px;
+    margin: 0;
+}
+.section-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+}   
+.address-heading {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 32px;
+}
+.address-lines {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    line-height: 2;
+    margin: 0;
+}
+.address-lines {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    line-height: 2;
+    margin: 0
+}
+.input-box {
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    color: #8b8b99;
+    border-radius: 6px;
+    border: 1px solid #e5e6ec;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+.primary-button {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(170, 210, 54);
+    padding: 12px 34px;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 4px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+footer {
+    background-color: #232323;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 30px 0px;
 }
